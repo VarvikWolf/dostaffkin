@@ -100,14 +100,12 @@
 
 
 .image-wrapper img,
-.static-image,
-.gif-image {
+.static-image{
     border-radius: 100px;
 
 }
 
-.static-image,
-.gif-image {
+.static-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -115,13 +113,7 @@
     transition: opacity 0.3s ease;
 }
 
-.static-image {
-    opacity: 1;
-}
 
-.gif-image {
-    opacity: 0;
-}
 
 @media (max-width: 1760px) {
     .main-title {
